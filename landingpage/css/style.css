@@ -1,0 +1,123 @@
+
+
+body{
+    font-family:tahoma;
+}
+/* Start My Framework */
+
+.container
+{
+    width:950px;
+    height:100%;
+    margin:auto;
+    display:table;
+}
+
+.main-color {
+    color:#FFF;
+}
+
+.text-center {
+    text-align:center
+}
+/* End My Framework */
+
+/* Start Header */
+header {
+    background-image: url("../images/1.jpg");
+    width: 100%;
+    height: 748px;
+    background-size: cover;
+    background-position: center;   
+}
+
+header h1
+{
+    width:20%;
+    float:left;
+    color:#FFF;
+    padding-top:20px;
+}
+
+.clear {
+    clear:both;
+}
+.links nav 
+{
+    margin-top:-60px;
+    width:70%;
+    padding-left:73px
+}
+
+.links nav ul li {
+    text-transform: capitalize;
+    list-style: none;
+    padding-left: 15px;
+    float: right
+}
+
+.links nav ul li a
+{
+    color:#FFF;
+    font-size:19px;
+    text-decoration:none;
+}
+
+.componts div.icons {
+   float: right;
+    padding-top: -37px;
+    margin: -61px 67px;
+    color: #FFF;  
+}
+
+div.componts .icons i {
+    padding: 3px;
+    width: 14px;
+    height: 21px;
+    line-height: 21px;
+}
+
+
+div.componts div.icons i:hover {
+    background-color: #6272B1;
+    cursor:pointer
+}
+
+.componts h2 {
+    padding-top:200px;
+    font-size:90px;
+    color:#FFF
+}
+
+.componts p {
+    color:#F2F2FA;
+    font-size:25px;
+    margin-top:-60px
+}
+
+.componts .btns {
+   margin: 65px 230px
+}
+
+
+.componts .btns button {
+    width: 200px;
+    margin-top: 20px;
+    padding: 15px;
+    background: none;
+    border: 2px solid #FFF;
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    outline: 0;
+    margin:20px
+}
+
+
+.componts .btns button:hover {
+    color:black;
+    background:#FFF;
+    
+}
+/* End Header */
